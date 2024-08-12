@@ -1,0 +1,152 @@
+body{
+font-family: "Poppins",sans-serif;
+margin: 0;
+padding: 0;
+scroll-behavior: smooth;
+
+}
+
+#h1 {
+font-weight:900;
+background-color: #0d95aaeb ;
+color: #f4f4f4;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0d95aaeb;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  
+}
+.logo img {
+  height: 100px;
+  border-radius: 100%;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display:flex; 
+}
+
+nav a {
+  text-decoration: none;
+  color: #fdfdfd;
+  padding: 10px;
+  margin: 20px;
+  transition: .3s;
+
+}
+nav a:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+main .Home {
+  display: flex;
+  flex-direction: column;
+  
+}
+main .Home h1{
+  text-align: center;
+}
+main .Home img {
+  margin: 2px 4px 2px 4px;
+}
+ 
+.services .add {
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+main .services{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:#0d95aaeb;
+  color: #f4f4f4;
+
+}
+h3 {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 20px;
+}
+
+main .services div{
+width: 200px;
+height: 100px;
+margin: 10px 30px 10px 30px;
+box-shadow: 12px 12px 40px #132424;
+border-radius: 6px;
+
+}
+.About p {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #0d95aaeb;
+  border:none;
+  border-radius: 20px;
+  margin: 5px 5px 5px 5px;
+  color: #f4f4f4;
+}
+
+.products-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 30px;
+  
+}
+.products-item {
+  width: 25%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.products-item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 12px 12px 50px #132424;
+  box-shadow: -12px -12px 50px #132424;
+}
+
+.footer .container{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+  background-color:#0d95aaeb;
+  border-radius: 25px;
+  
+}
+.social-media ul li a{
+  text-decoration: none;
+  padding: 20px;
+  color: #f4f4f4;
+  
+}
+.social-media ul {
+  display: flex;
+  list-style: none;
+  margin: 30px ;
+  
+}
+
+.address p {
+  color: #f4f4f4;
+}
+
+
+
+
